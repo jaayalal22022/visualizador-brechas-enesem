@@ -114,7 +114,7 @@ st.markdown(
     """
     <div class="enesem-banner">
       <h1>Brecha entre socialización y diligenciamiento</h1>
-      <p>Tablero para la V Reunión nacional de evaluación y planificación de la ENESEM</p>
+      <p>Tablero para la V Reunión nacional de evaluación y planificación de la ENESEM · Versión 2.1</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -122,6 +122,7 @@ st.markdown(
 
 with st.sidebar:
     st.header("Fuente de información")
+    st.success("Versión 2.1 · Incluye análisis por encuestador/a")
     uploaded = st.file_uploader(
         "Directorio ENESEM",
         type=["xlsx", "xls", "csv"],
